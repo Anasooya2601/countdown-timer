@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+<div style="padding-bottom:8px;font-size: 12px;  padding-top: 8px; border: solid;
+border-width: 5px 5px 5px 5px;">
+
+	<h1 align="center">Survey Form</h1>
+</head>
+<body>
+
+	<form method=get>
+	* Name:<input type="text" name="name" Size="58" maxlenght="15" required><br>
+	* Email:<input type="Email" size="58"  maxlenght="15" required><br>
+	<label for="age">*Age:</label>
+<select name="age" id="age" required><option>
+	
+<Option VALUE=1 >Less than 20 yrs
+<Option VALUE=2 >20 - 25 yrs
+<Option VALUE=3 >26 - 30 yrs
+<Option VALUE=4 >31 - 35 yrs
+<Option VALUE=5 >36 - 40 yrs
+<Option VALUE=6 >41 - 45 yrs
+<Option VALUE=7 >46 - 50 yrs
+<Option VALUE=8 >51 - 55 yrs
+<Option VALUE=9 >56 - 60 yrs
+<Option VALUE=10 >61 plus
+</SELECT><br>
+	Which option best describes your current role
+
+	<select Name="role" required="profession"><option>
+
+		<option value="student">Student
+     	<option value="">others
+     </select><br>
+     </option>
+     <label >*How likely is that you would recommend a friend?</label><br>
+   <input type="radio" id="Definitely" name="recommendation" value="Definitely" required="required">
+  <label for="Definitely">Definitely</label><br>
+  <input type="radio" id="maybe" name="recommendation" value="maybe">
+  <label for="female">Maybe</label><br>
+  <input type="radio" id="other" name="recommendation" value="other">
+  <label for="other">Other</label><br>
+
+	Things that should be improved in future
+	(Check all that apply):<br> 
+	<input type="checkbox" name="front-end" >front-end project<br>
+	<input type="checkbox" name="front-end" >back-end project<br>
+	<input type="checkbox" name="front-end" >Data visualisation<br>
+	 <input type="submit" value="Submit">
+     <input type="reset"> 
+	</form>
+</div>
+</body>
+</html>
